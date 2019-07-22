@@ -75,7 +75,7 @@ babel-preset-es2015 - Babel preset for all es2015 plugins
 nodemon - nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected
 
 # Request
- optional not required for creating the first user
+role (optional) not required for creating the first user
 
 ```sh
 {
@@ -98,3 +98,7 @@ nodemon - nodemon is a tool that helps develop node.js based applications by aut
     "message": "User Record Created Successfully"
 }
 ```
+
+# Endpoint to access 
+
+POST {{host}}/api/users/
